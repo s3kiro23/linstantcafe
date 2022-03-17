@@ -1,0 +1,298 @@
+/* || Config Générale */
+
+html, body {
+	width: 35cm;
+  	height: 29.7cm;
+  	margin: 0 auto;
+  	margin-bottom: 0.5cm;
+}
+
+html {
+	font-size: 10px;
+	background-color: #22282f; 
+}
+
+body {
+	width: 70%
+	margin: 0 auto;
+}
+
+/* || Typo */
+
+html, body {
+	font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+h1, h2, h3 {
+	color: #2a2a2a;
+}
+
+p, li {
+	color: #2a2a2a;
+  	font-size: 1.6rem;
+  	line-height: 1.5;
+}
+
+h1 {
+	font-size: 4rem;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2.2rem;
+}
+
+article, aside, footer {
+	background-color: white;
+	padding: 1%;
+	margin: 1px;
+}
+
+/* || Layout Top-panel */
+
+#top-panel {
+	background-color: #22282f;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logos {
+	width: 140px;
+}
+
+#logos li {
+	padding-right: 10px;
+	padding-top: 5px;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#logos ul {
+	margin: 0;
+	padding: 0;
+}
+
+#login {
+	background-color: #22282f;
+	font-size: 13px;
+	width: 200px;
+}
+
+#login ul {
+	display: flex;
+	margin: 0;
+	padding: 10px 0px 0px 0px;
+
+}
+
+#login li {
+	list-style-type: none;
+}
+
+#login a {
+	text-decoration: none;
+	color: #8998b0;
+	letter-spacing: 1px;
+}
+
+#ins {
+	margin-left: 8px;
+	font-weight: bold;
+}
+
+/* || Layout Header */
+
+header {
+	background-color: #2a313c;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+header div {
+	display: flex;
+}
+
+header h1 {
+	margin-left: 15px;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+header form {
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	height: 100%;
+  	padding: 0 2em;
+  	margin-top: 45px
+}
+
+input {
+	font-size: 1.6rem;
+	height: 25px;
+}
+
+input[type='search'] {
+	flex: 3;
+}
+
+input[type='submit'] {
+	margin-left: 1rem;
+	background-color: #333;
+	border: 0;
+	color: white;
+}
+
+/* || Layout NavBar */
+
+nav {
+	height: 50px;
+	background-color: #23282f;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	flex: 2;
+	display: flex;
+	margin: 0px;
+}
+
+nav li {
+	display: inline;
+	text-align: center;
+	flex: 1;
+	margin: 0px;
+	border: 1px solid black;
+}
+
+nav a {
+	display: flex;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ececec;
+	justify-content: center;
+	margin: 0px;
+	padding-bottom: 13px;
+	padding-top: 14px;
+	border-bottom: 2px solid #323b47;
+	letter-spacing: 1px;
+}
+
+nav a:hover {
+	font-weight: bold;
+	border-bottom: 2px solid #70E8B0;
+	background-color: #323b47;
+}
+
+nav ul::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* || Layout listes déroulantes */
+
+.sous {
+	display: none;
+	background-color: #323b47;
+	position: absolute;
+	width: 100.5%;
+	z-index: 1000;
+}
+
+.sous li {
+	width: 100%;
+	text-align: left;
+	margin-left: -2px;
+}
+
+nav > ul li:hover .sous {
+	display: block;
+}
+
+nav ul li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	position: relative;
+}
+
+.sous a {
+	padding: 10px;
+	border-bottom: none;
+	display: flex;
+	text-transform: none;
+	border:1px solid black;
+}
+
+.sous a:hover {
+	border-bottom: none;
+	background-color: #70E8B0;
+}
+
+/* || Layout main */
+
+main {
+	display: flex;
+}
+
+article {
+	flex: 4;
+}
+
+aside {
+	flex: 1;
+	margin-left: 10px;
+	background-color: #dedede;
+}
+
+aside li {
+	padding-bottom: 10px;
+}
+
+aside a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* || Layout footer */
+
+footer {
+	margin-top: 10px;	
+	background-color: #22282f;
+}
+
+footer ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+footer li {
+	margin-left: 15px;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer p {
+	text-align: center;
+	margin: 10px 0 0 0 auto;
+	color: white
+}

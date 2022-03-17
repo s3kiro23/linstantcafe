@@ -1,0 +1,3 @@
+RewriteEngine ON
+RewriteCond %{HTTP_HOST} ^www.instantcafe.fun$ [NC]
+RewriteRule ^(.*)$ http://instantcafe.fun/$1 [R=301,L]
