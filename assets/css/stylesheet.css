@@ -211,14 +211,13 @@ nav ul::after {
 	display: none;
 	background-color: #323b47;
 	position: absolute;
-	width: 100.5%;
+	width: 100%;
 	z-index: 1000;
 }
 
 .sous li {
 	width: 100%;
 	text-align: left;
-	margin-left: -2px;
 }
 
 nav > ul li:hover .sous {
@@ -233,11 +232,9 @@ nav ul li {
 }
 
 .sous a {
-	padding: 10px;
 	border-bottom: none;
 	display: flex;
 	text-transform: none;
-	border:1px solid black;
 }
 
 .sous a:hover {
@@ -289,10 +286,16 @@ footer li {
 
 footer a {
 	text-decoration: none;
+	margin-left: 20px;
+	color: white;	
 }
 
 footer p {
 	text-align: center;
 	margin: 10px 0 0 0 auto;
 	color: white
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
