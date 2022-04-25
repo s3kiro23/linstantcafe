@@ -1,95 +1,246 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <link rel="stylesheet" type="text/css" href="assets\css\stylesheet.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets\css\stylesheet.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-</head>
-<body>
-    <div id='top-panel'>
-        <div id='logos'>
-            <ul>
-                <li>
-                    <a target=_blank href="https://fr-fr.facebook.com/">
-                        <img alt='Facebook' src="assets\img\fb.png"/>
-                    </a>
-                </li>
-                <li>
-                    <a target=_blank href="https://www.instagram.com/?hl=fr">
-                        <img alt='Instagram' src="assets\img\insta.png"/>
-                    </a>
-                </li>
-                <li>
-                    <a target=_blank href="https://fr.linkedin.com/">
-                        <img alt='LinkedIn' src="assets\img\linkedin.png"/>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div id="login">
-            <ul>
-                <li>
-                    <a href="id.html">S'identifier - </a>
-                </li>
-                <li>
-                    <a id='ins' href="sub.html">S'inscrire</a>
-                </li>
-            </ul>
-        </div>
+  </head>
+  <body>
+    <div id="top-panel">
+      <div id="logos">
+        <ul>
+          <li>
+            <a target="_blank" href="https://fr-fr.facebook.com/">
+              <img alt="Facebook" src="assets\img\fb.png" />
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/?hl=fr">
+              <img alt="Instagram" src="assets\img\insta.png" />
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://fr.linkedin.com/">
+              <img alt="LinkedIn" src="assets\img\linkedin.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="login">
+        <ul>
+          <li>
+            <a href="id.html">S'identifier - </a>
+          </li>
+          <li>
+            <a id="ins" href="sub.html">S'inscrire</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <header>
-        <div>
-            <h1>
-                <a href='index.html'>L'instant Café</a>
-            </h1>
-                <form>
-                     <input type="search" name="q" placeholder="Rechercher sur le web">
-                     <input type="submit" value="Spock le !">
-                   </form>
-        </div>	
+      <div>
+        <h1>
+          <a href="index.html">L'instant Café</a>
+        </h1>
+        <form>
+          <input type="search" name="q" placeholder="Rechercher sur le web" />
+          <input type="submit" value="Spock le !" />
+        </form>
+      </div>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="#">Veille Tech</a>
-                <ul class="sous">
-                    <li><a target=_blank href="https://www.lafermeduweb.net/tag/html">HTML</a></li>
-                    <li><a target=_blank href="https://www.lafermeduweb.net/tag/css">CSS</a></li>
-                    <li><a target=_blank href="https://www.lafermeduweb.net/tag/javascript">Javascript</a></li>
-                    <li><a target=_blank href="https://www.lafermeduweb.net/tag/php">PHP</a></li>
-                </ul>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li>
+          <a href="#">Veille Tech</a>
+          <ul class="sous">
+            <li>
+              <a target="_blank" href="https://www.lafermeduweb.net/tag/html"
+                >HTML</a
+              >
             </li>
-            <li class="deroulant"><a href="#">Mes Projets</a>
-                <ul class="sous">
-                    <li><a href="https://pignatone.com" target="_blank">PIGNATONE Bar</a></li>
-                    <li><a target="_blank" href="moncv.html" onclick="monBoutonClic();">Mon CV</a></li>
-                    <li><a href="#">Projet 3</a></li>
-                    <li><a href="#">Projet 4</a></li>
-                </ul>
+            <li>
+              <a target="_blank" href="https://www.lafermeduweb.net/tag/css"
+                >CSS</a
+              >
             </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="apropos.html">À propos</a></li>
-        </ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.lafermeduweb.net/tag/javascript"
+                >Javascript</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="https://www.lafermeduweb.net/tag/php"
+                >PHP</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="deroulant">
+          <a href="#">Mes Projets</a>
+          <ul class="sous">
+            <li>
+              <a href="https://pignatone.com" target="_blank">PIGNATONE Bar</a>
+            </li>
+            <li>
+              <a target="_blank" href="moncv.html" onclick="monBoutonClic();"
+                >Mon CV</a
+              >
+            </li>
+            <li><a href="#">Projet 3</a></li>
+            <li><a href="#">Projet 4</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
     <main>
-        <article>
-            <h2>Page de Contact</h2>
-                <p>
-                Créer un formulaire pour la demande d'infos
-                </p>
-        </article>
+      <article>
+        <h2>Page de Contact</h2>
+        <table style="border-spacing: 10px">
+          <tr>
+            <td colspan="3">
+              Tous les champs précédés d'un astérisque (<span style="color: red"
+                >*</span>) sont obligatoire.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Mr">Mr</label>
+              <input type="radio" name="Genre" id="Mr" checked />
+            </td>
+            <td>
+              <label for="Mme">Mme</label>
+              <input type="radio" name="Genre" id="Mme" />
+            </td>
+            <td>
+              <label for="Mlle">Mlle</label>
+              <input type="radio" name="Genre" id="Mlle" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="nom"><span style="color: red">*</span> Nom :</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="nom"
+                id="nom"
+                placeholder="Votre Nom"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="prénom"
+                ><span style="color: red">*</span> Prénom :</label
+              >
+            </td>
+            <td>
+              <input
+                type="text"
+                name="Prénom"
+                id="Prénom"
+                placeholder="Votre prénom"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="date"> Date de naissance :</label>
+            </td>
+            <td>
+              <input
+                type="date"
+                name="date"
+                id="date"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="mail"><span style="color: red">*</span> @mail</label>
+            </td>
+            <td>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="Votre adresse mail"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="subject"
+                ><span style="color: red">*</span> Sujet du message :</label
+              >
+            </td>
+            <td>
+              <input
+                type="text"
+                name="sub"
+                id="subject"
+                placeholder="Indiquer un sujet"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="subject"
+                ><span style="color: red">*</span> Message :</label
+              >
+            </td>
+            <td>
+              <textarea
+                name="message"
+                id="message"
+                cols="40"
+                rows="10"
+                placeholder="Saisissez votre message ici."
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <label for="conditions"
+                ><i><span style="color: red">*</span> Veuillez accepter les conditions d'utilisation du site</i>
+              </label>
+              <input
+                type="checkbox"
+                name="conditions"
+                id="conditions"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <button>Soumettre</button>
+            </td>
+          </tr>
+        </table>
+      </article>
     </main>
     <footer>
-        <p>©Copyright by SpawnX. Tous droits réservés.</p>
+      <p>©Copyright by SpawnX. Tous droits réservés.</p>
     </footer>
-</body>
+  </body>
 
-<script>
-    function monBoutonClic(){
-        alert ('Attention, vous allez être renvoyé vers une autre page !');
-        console.log('redirection réussi !')
+  <script>
+    function monBoutonClic() {
+      alert("Attention, vous allez être renvoyé vers une autre page !");
+      console.log("redirection réussi !");
     }
-</script>
+  </script>
 </html>

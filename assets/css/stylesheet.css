@@ -267,6 +267,11 @@ aside a:hover {
 	text-decoration: none;
 }
 
+table {
+	font-size: 16px;
+	padding: 5px;
+}
+
 /* || Layout footer */
 
 footer {
