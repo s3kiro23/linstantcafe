@@ -267,6 +267,11 @@ aside a:hover {
 	text-decoration: none;
 }
 
+.styleInput {
+	height: auto;
+	font-size: 13px;
+}
+
 table {
 	font-size: 16px;
 	padding: 5px;
