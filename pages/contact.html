@@ -1,102 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <link rel="stylesheet" type="text/css" href="assets\css\stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/stylesheet.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="../src/components/header.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="../src/components/footer.js"
+      type="text/javascript"
+      defer
+    ></script>
     <title>Contact</title>
   </head>
   <body>
-    <div id="top-panel">
-      <div id="logos">
-        <ul>
-          <li>
-            <a target="_blank" href="https://fr-fr.facebook.com/">
-              <img alt="Facebook" src="assets\img\fb.png" />
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.instagram.com/?hl=fr">
-              <img alt="Instagram" src="assets\img\insta.png" />
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://fr.linkedin.com/">
-              <img alt="LinkedIn" src="assets\img\linkedin.png" />
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div id="login">
-        <ul>
-          <li>
-            <a href="id.html">S'identifier - </a>
-          </li>
-          <li>
-            <a id="ins" href="sub.html">S'inscrire</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <header>
-      <div>
-        <h1>
-          <a href="index.html">L'instant Café</a>
-        </h1>
-        <form>
-          <input type="search" name="q" placeholder="Rechercher sur le web" />
-          <input type="submit" value="Spock le !" />
-        </form>
-      </div>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li>
-          <a href="#">Veille Tech</a>
-          <ul class="sous">
-            <li>
-              <a target="_blank" href="https://www.lafermeduweb.net/tag/html"
-                >HTML</a
-              >
-            </li>
-            <li>
-              <a target="_blank" href="https://www.lafermeduweb.net/tag/css"
-                >CSS</a
-              >
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.lafermeduweb.net/tag/javascript"
-                >Javascript</a
-              >
-            </li>
-            <li>
-              <a target="_blank" href="https://www.lafermeduweb.net/tag/php"
-                >PHP</a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="deroulant">
-          <a href="#">Mes Projets</a>
-          <ul class="sous">
-            <li>
-              <a href="https://pignatone.com" target="_blank">PIGNATONE Bar</a>
-            </li>
-            <li>
-              <a target="_blank" href="moncv.html" onclick="monBoutonClic();"
-                >Mon CV</a
-              >
-            </li>
-            <li><a href="#">Projet 3</a></li>
-            <li><a href="#">Projet 4</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
+    <header-component></header-component>
     <main>
       <article>
         <h2>Page de Contact</h2>
@@ -236,14 +158,7 @@
         </table>
       </article>
     </main>
-    <footer>
-      <p>
-        ©Copyright by SpawnX. Tous droits réservés.
-        <a href="contact.html">Contact</a>
-        <a href="apropos.html"> À propos</a>
-        <a href="cgu.html">CGU</a>
-      </p>
-    </footer>
+    <footer-component></footer-component>
   </body>
 
   <script>
