@@ -103,7 +103,7 @@
         <table style="border-spacing: 10px">
           <tr>
             <td colspan="3">
-              Tous les champs précédés d'un astérisque (<span style="color: red"
+              Tous les champs contenant un astérisque (<span style="color: red"
                 >*</span
               >) sont obligatoire.
             </td>
@@ -130,7 +130,7 @@
           </tr>
           <tr>
             <td colspan="2">
-              <label for="nom"><span style="color: red">*</span> Nom :</label>
+              <label for="nom">Nom :</label>
             </td>
             <td>
               <input
@@ -138,16 +138,14 @@
                 type="text"
                 name="nom"
                 id="nom"
-                placeholder="Votre Nom"
+                placeholder="Votre Nom *"
                 required
               />
             </td>
           </tr>
           <tr>
             <td colspan="2">
-              <label for="prénom"
-                ><span style="color: red">*</span> Prénom :</label
-              >
+              <label for="prénom">Prénom :</label>
             </td>
             <td>
               <input
@@ -155,7 +153,7 @@
                 type="text"
                 name="Prénom"
                 id="Prénom"
-                placeholder="Votre prénom"
+                placeholder="Votre prénom *"
                 required
               />
             </td>
@@ -165,12 +163,12 @@
               <label for="date"> Date de naissance :</label>
             </td>
             <td>
-              <input type="date" name="date" id="date" />
+              <input class="styleInput" type="date" name="date" id="date" />
             </td>
           </tr>
           <tr>
             <td colspan="2">
-              <label for="mail"><span style="color: red">*</span> @mail</label>
+              <label for="mail"> Mail :</label>
             </td>
             <td>
               <input
@@ -178,16 +176,14 @@
                 type="email"
                 name="mail"
                 id="mail"
-                placeholder="Votre adresse mail"
+                placeholder="Votre adresse mail *"
                 required
               />
             </td>
           </tr>
           <tr>
             <td colspan="2">
-              <label for="subject"
-                ><span style="color: red">*</span> Sujet du message :</label
-              >
+              <label for="subject">Sujet du message :</label>
             </td>
             <td>
               <input
@@ -195,16 +191,14 @@
                 type="text"
                 name="sub"
                 id="subject"
-                placeholder="Indiquer un sujet"
+                placeholder="Indiquer un sujet *"
                 required
               />
             </td>
           </tr>
           <tr>
             <td colspan="2">
-              <label for="subject"
-                ><span style="color: red">*</span> Message :</label
-              >
+              <label for="subject">Message :</label>
             </td>
             <td>
               <textarea
@@ -212,7 +206,7 @@
                 id="message"
                 cols="40"
                 rows="10"
-                placeholder="Saisissez votre message ici."
+                placeholder="Saisissez votre message ici *"
               ></textarea>
             </td>
           </tr>
@@ -221,8 +215,8 @@
             <td colspan="3">
               <label for="conditions"
                 ><i
-                  ><span style="color: red">*</span> Veuillez accepter les
-                  conditions d'utilisation du site</i
+                  ><span style="color: red">*</span> Veuillez accepter les CGU
+                  de notre site pour pouvoir déposer un message</i
                 >
               </label>
               <input
@@ -243,7 +237,12 @@
       </article>
     </main>
     <footer>
-      <p>©Copyright by SpawnX. Tous droits réservés.</p>
+      <p>
+        ©Copyright by SpawnX. Tous droits réservés.
+        <a href="contact.html">Contact</a>
+        <a href="apropos.html"> À propos</a>
+        <a href="cgu.html">CGU</a>
+      </p>
     </footer>
   </body>
 

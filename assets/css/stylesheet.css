@@ -5,6 +5,7 @@ html, body {
   	height: 29.7cm;
   	margin: 0 auto;
   	margin-bottom: 0.5cm;
+	box-sizing: border-box;
 }
 
 html {

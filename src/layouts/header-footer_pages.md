@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
   <head>
     <link rel="stylesheet" type="text/css" href="assets\css\stylesheet.css" />
@@ -102,34 +101,8 @@
     </nav>
     <main>
       <article>
-        <h2>Pourquoi faire ?!</h2>
-        <p>
-          L'intérêt est de centraliser toutes les infos dont j'ai besoin sur une
-          seul interface : la veille tech pour le dev, l'affichage de mon CV en
-          ligne, le suivi de mes projets en cours et à venir.
-        </p>
-        <h3>Soon</h3>
+        <slot /> <!-- Ton contenu ici -->
       </article>
-      <aside>
-        <h2>Mais aussi</h2>
-        <ul>
-          <li>
-            <a target="_blank" href="https://www.jeuxvideo.com/"
-              >Session Gaming</a
-            >
-          </li>
-          <li><a href="#">Ma petite bécane</a></li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.youtube.com/watch?v=ENDmcfr91bs&ab_channel=ElectroPos%C3%A9"
-              >Electro posé</a
-            >
-          </li>
-          <li><a href="#">Checklist de l'année !</a></li>
-          <li><a href="#">Eh bien…</a></li>
-        </ul>
-      </aside>
     </main>
     <footer>
       <p>
@@ -140,7 +113,6 @@
       </p>
     </footer>
   </body>
-
   <script>
     function monBoutonClic() {
       alert("Attention, vous allez être renvoyé vers une autre page !");
