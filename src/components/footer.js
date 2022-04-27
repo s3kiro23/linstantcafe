@@ -8,9 +8,9 @@ class Footer extends HTMLElement {
       <footer>
       <p>
         ©Copyright by SpawnX. Tous droits réservés.
-        <a href="pages/contact.html">Contact</a>
-        <a href="pages/apropos.html">À Propos</a>
-        <a href="pages/cgu.html">CGU</a>
+        <a href="contact.html">Contact</a>
+        <a href="apropos.html">À Propos</a>
+        <a href="cgu.html">CGU</a>
       </p>
     </footer>
       `;

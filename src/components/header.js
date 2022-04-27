@@ -5,10 +5,10 @@ class Header extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
-      <header>
+      <header id="retour-haut">
       <div>
         <h1>
-          <a href="../index.html">L'instant Café</a>
+          <a href="index.html">L'instant Café</a>
         </h1>
         <form>
           <input type="search" name="q" placeholder="Rechercher sur le web" />
@@ -18,7 +18,7 @@ class Header extends HTMLElement {
     </header>
     <nav>
     <ul>
-      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="blog.html">Blog</a></li>
       <li>
         <a href="#">Veille Tech</a>
         <ul class="sous">
