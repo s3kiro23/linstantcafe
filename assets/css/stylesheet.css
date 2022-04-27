@@ -158,6 +158,11 @@ input[type="search"] {
   flex: 3;
 }
 
+input ~ span{
+	transition: top .7s ease;
+	position: absolute;
+}
+
 input[type="submit"] {
   margin-left: 1rem;
   background-color: #333;
@@ -230,7 +235,7 @@ nav ul::after {
 }
 
 .sous li {
-  width: 100%;
+  width: 99%;
   text-align: left;
 }
 
@@ -253,7 +258,7 @@ nav ul li {
 
 .sous a:hover {
   border-bottom: none;
-  background-color: #70e8b0;
+  background-color: #70e8b0e3;
 }
 
 /* || Layout main */
@@ -295,42 +300,42 @@ table {
   border-color: red;
   display: inline;
   position: fixed;
-  right: 15px;
-  bottom: 15px;
+  right: 3%;
+  bottom: 5%;
 }
 
 .boutonBack img {
   width: 30px;
 }
 
-.buttonContact {
-  width: 50px;
-  border-radius: 50%;
-  background-color: #70e8b0;
-  position: fixed;
-  top: 20%;
-  right: 10px;
-  border: #70e8b0;
-  box-sizing: border-box;
-  box-shadow: 12px rgba(rgb(79, 122, 86), green, blue, alpha);
-}
+.cercle {
+	position: fixed;
+	bottom: 35%;
+	right: 1%;
+	height: 60px;
+	width: 60px;
+	background-color: #70e8b0;
+	border: 2px solid white;
+	border-radius: 50%;
+	border-top-right-radius: 0%;
+  }
+  
+  .cercle img {
+	  width: 40px;
+	  padding: 9.5px;
+  }
 
-.buttonContact img {
-  padding-top: 3px;
-}
-
-.ear-right {
-  background-color: #70e8b0;
-  position: fixed;
-  top: 20%;
-  right: 10px;
-  width: 25px;
-  height: 25px;
+.cercle:hover {
+	box-shadow: 0px 0px 5px white;
 }
 
 .imgBlog {
   width: 300px;
 }
+
+/* Layout form */
+
+
 
 /* || Layout footer */
 

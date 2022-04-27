@@ -57,7 +57,7 @@ class Header extends HTMLElement {
               >Mon CV</a
             >
           </li>
-          <li><a href="#">Projet 3</a></li>
+          <li><a href="https://ecrirepourlefutur.org" target="_blank">Ecrire pour le futur</a></li>
           <li><a href="#">Projet 4</a></li>
         </ul>
       </li>

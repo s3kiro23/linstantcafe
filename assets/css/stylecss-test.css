@@ -1,0 +1,13 @@
+.cercle {
+  height: 60px;
+  width: 60px;
+  background-color: #70e8b0;
+  border: 2px solid white;
+  border-radius: 50%;
+  border-top-right-radius: 0%;
+}
+
+.cercle img {
+    width: 40px;
+    padding: 9px;
+}
