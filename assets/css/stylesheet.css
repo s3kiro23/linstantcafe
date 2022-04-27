@@ -322,7 +322,7 @@ table {
   
   .cercle img {
 	  width: 40px;
-	  padding: 9.5px;
+	  padding: 9px;
   }
 
 .cercle:hover {
@@ -331,6 +331,10 @@ table {
 
 .imgBlog {
   width: 300px;
+}
+
+.footer-right {
+  display: block;
 }
 
 /* Layout form */

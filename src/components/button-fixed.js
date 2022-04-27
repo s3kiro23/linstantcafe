@@ -7,7 +7,7 @@ class buttonFixed extends HTMLElement {
     this.innerHTML = `
     <div class="cercle">
     <a href="contact.html"
-      ><img src="assets/img/at-solid.svg" alt="bouton-contact"
+      ><img src="assets/img/headset-solid.png" alt="bouton-contact"
     /></a>
     </div>
     <div class="boutonBack">
