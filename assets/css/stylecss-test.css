@@ -1,13 +1,7 @@
-.cercle {
-  height: 60px;
-  width: 60px;
-  background-color: #70e8b0;
-  border: 2px solid white;
-  border-radius: 50%;
-  border-top-right-radius: 0%;
+.footer-main {
+  background-color: antiquewhite;
 }
 
-.cercle img {
-    width: 40px;
-    padding: 9px;
+ul {
+  list-style: none;
 }

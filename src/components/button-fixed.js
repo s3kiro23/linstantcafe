@@ -7,8 +7,8 @@ class buttonFixed extends HTMLElement {
     this.innerHTML = `
     <div class="cercle">
     <a href="contact.html"
-      ><img src="assets/img/headset-solid.png" alt="bouton-contact"
-    /></a>
+      ><p class="cercle-p">. . .</p>
+    </a>
     </div>
     <div class="boutonBack">
     <a href="#retour-haut"

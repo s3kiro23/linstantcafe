@@ -158,9 +158,9 @@ input[type="search"] {
   flex: 3;
 }
 
-input ~ span{
-	transition: top .7s ease;
-	position: absolute;
+input ~ span {
+  transition: top 0.7s ease;
+  position: absolute;
 }
 
 input[type="submit"] {
@@ -309,24 +309,48 @@ table {
 }
 
 .cercle {
-	position: fixed;
-	bottom: 35%;
-	right: 1%;
-	height: 60px;
-	width: 60px;
-	background-color: #70e8b0;
-	border: 2px solid white;
-	border-radius: 50%;
-	border-top-right-radius: 0%;
-  }
-  
-  .cercle img {
-	  width: 40px;
-	  padding: 9px;
-  }
+  position: fixed;
+  bottom: 35%;
+  right: 1%;
+  height: 60px;
+  width: 60px;
+  background-color: #70e8b0;
+  /* border: 2px solid white; */
+  border-radius: 50%;
+  /* border-top-right-radius: 0%; */
+}
 
-.cercle:hover {
-	box-shadow: 0px 0px 5px white;
+.cercle a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.cercle-p {
+  font-weight: bold;
+  margin-top: 13px;
+}
+
+/* .cercle img {
+  width: 40px;
+  padding: 9px;
+} */
+
+/* .cercle:hover {
+  box-shadow: 0px 0px 5px white;
+} */
+
+.cercle:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 75%;
+  height: 20px;
+  width: 20px;
+  background-color: #70e8b0;
+  padding: 5px;
+  border-bottom-right-radius: 100px 100px;
 }
 
 .imgBlog {
@@ -339,7 +363,10 @@ table {
 
 /* Layout form */
 
-
+.required-conditions::before {
+  content: "*";
+  color: red;
+}
 
 /* || Layout footer */
 
@@ -372,4 +399,61 @@ footer p {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+[data-contact] {
+  position: relative;
+}
+
+[data-contact]:hover::after{
+  content: attr(data-contact);
+  position: absolute;
+  font-size: 0.6em;
+  top: 100%;
+  right: 0;
+  left:0;
+  width: 100px;
+  padding-bottom: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+[data-propos] {
+  position: relative;
+}
+
+[data-propos]:hover::after{
+  content: attr(data-propos);
+  position: absolute;
+  font-size: 0.6em;
+  top: 100%;
+  right: 0;
+  left:0;
+  width: 100px;
+  padding-bottom: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+[data-cgu] {
+  position: relative;
+}
+
+[data-cgu]:hover::after{
+  content: attr(data-cgu);
+  position: absolute;
+  font-size: 0.6em;
+  top: 100%;
+  right: 0;
+  left:0;
+  width: 100px;
+  padding-bottom: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
 }

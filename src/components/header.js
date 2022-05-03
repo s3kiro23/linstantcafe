@@ -11,8 +11,8 @@ class Header extends HTMLElement {
           <a href="index.html">L'instant Café</a>
         </h1>
         <form>
-          <input type="search" name="q" placeholder="Rechercher sur le web" />
-          <input type="submit" value="Spock le !" />
+          <input data-search="Pas encore au point !" type="search" name="q" placeholder="Rechercher sur le web" />
+          <input data-submit="Tu cherches mais tu trouves pas :s" type="submit" value="Spock le !" />
         </form>
       </div>
     </header>
