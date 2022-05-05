@@ -135,6 +135,15 @@ header h1 {
   margin-left: 15px;
 }
 
+/* .header-title{
+transition: 0.3s ease-in 50ms;
+box-shadow: 10px 5px 5px #70e8b0;
+
+} */
+
+/* .header-title__link:hover{
+} */
+
 header a {
   text-decoration: none;
   color: white;
@@ -155,7 +164,8 @@ input {
 }
 
 input[type="search"] {
-  flex: 3;
+/* flex: 3; */
+margin-left: 65%;
 }
 
 input ~ span {
@@ -168,6 +178,7 @@ input[type="submit"] {
   background-color: #333;
   border: 0;
   color: white;
+  cursor: pointer;
 }
 
 /* || Layout NavBar */
@@ -335,36 +346,61 @@ table {
 
 /* || Layout footer */
 
-footer {
+.footer-main {
+  background-color: #2a313c;
   margin-top: 10px;
-  background-color: #22282f;
-}
-
-footer ul {
-  list-style-type: none;
+  height: 100px;
   display: flex;
-  justify-content: center;
+  gap:100px;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  justify-content: space-around;
 }
 
-footer li {
-  margin-left: 15px;
+.footer-copyright p{
+  color: white;
 }
 
-footer a {
+/* .footer-pages{
+} */
+
+.footer-pages__list{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-pages__link{
   text-decoration: none;
-  margin-left: 20px;
   color: white;
+  transition: 0.3s ease-in 50ms;
 }
 
-footer p {
-  text-align: center;
-  margin: 10px 0 0 0 auto;
-  color: white;
+.footer-pages__link:hover{
+  color: #70e8b0;
 }
 
-footer a:hover {
-  text-decoration: underline;
+/* .footer-socials{
+} */
+
+.footer-socials__list{
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
+
+.footer-socials__link{
+  display: flex;
+}
+
+.footer-socials__link img{
+width: 25px;
+height: 25px;
+}
+
+
+/* || Layout Bouton Pulse */
 
 .container {
   width: 100px;
