@@ -17,12 +17,10 @@ class Footer extends HTMLElement {
       <div class="footer-socials">
         <ul class="footer-socials__list">
           <li>
-            <a class="footer-socials__link" href="#"
-              ><img src="assets/img/facebook-square.png" alt="ico-fb"
-            /></a>
+            <a class="footer-socials__link" href="#"><img src="assets/img/facebook-square.png" alt="ico-fb"/></a>
           </li>
           <li>
-            <a class="footer-socials__link" href="#"><img src="assets/img/git-alt.png" alt="ico-git" /></a>
+            <a class="footer-socials__link" href="#"><img src="assets/img/github-square.png" alt="ico-git" /></a>
           </li>
           <li>
             <a class="footer-socials__link" href="#"><img src="assets/img/linkedin.png" alt="ico-link" /></a>

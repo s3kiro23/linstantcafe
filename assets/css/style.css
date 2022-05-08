@@ -68,6 +68,7 @@ footer {
   margin: 1px;
 }
 
+
 /* || Layout Top-panel */
 
 #top-panel {
@@ -133,6 +134,7 @@ header div {
 
 header h1 {
   margin-left: 15px;
+
 }
 
 /* .header-title{
@@ -319,16 +321,6 @@ table {
   width: 30px;
 }
 
-.cercle a {
-  text-decoration: none;
-  text-align: center;
-}
-
-.cercle-p {
-  font-weight: bold;
-  margin-top: 13px;
-}
-
 .imgBlog {
   width: 300px;
 }
@@ -395,8 +387,16 @@ table {
 }
 
 .footer-socials__link img{
-width: 25px;
-height: 25px;
+  width: 25px;
+  height: 25px;
+  transition: 0.3s ease-in 50ms;
+}
+
+.footer-socials__link img:hover{
+  background-color: #70e8b0;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
 }
 
 
@@ -421,7 +421,8 @@ height: 25px;
   border-radius: 50%;
   background-color: #70e8b0e3;
   background-image: url(/assets/img/headset-solid.png);
-  background-size: cover;
+  background-size: 40px;
+  background-position: 10px 9px;
   background-repeat: no-repeat;
   cursor: pointer;
   -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);

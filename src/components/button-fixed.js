@@ -6,7 +6,7 @@ class buttonFixed extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div class="container">
-    <button class="pulse-button" "href="contact.html"></button>
+    <button onClick="buttonPulse();" class="pulse-button" "href="contact.html"></button>
     </div>
     <div class="boutonBack">
     <a href="#retour-haut"
